@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app">
+      <h3>{{ message }}</h3>
+      <br />
+      <img
+        width="150"
+        @click="sayYes()"
+        src="https://i.pinimg.com/originals/a2/6d/95/a26d953e5c9f35117b133b1b29da82fc.gif"
+      />
+      <br />
+      <img
+        width="150"
+        @click="sayNo()"
+        src="https://media3.giphy.com/media/l0MYICK7vFjhxwxhK/giphy.gif"
+      />
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="src/index.js"></script>
+  </body>
+</html>
